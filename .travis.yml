@@ -5,9 +5,8 @@ node_js:
 env:
   - NODE_ENV="test"
 before_script:
-  - createuser sfmovies_user
-  - createdb -O sfmovies_user sfmovies_test
-  - npm run db:migrate
+  - npm run db:setup:user
+  - npm run db:reset
 script:
   - npm test
   - npm run enforce
