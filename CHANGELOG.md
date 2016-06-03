@@ -1,3 +1,9 @@
+### 1.1.0 (2016-6-3)
+
+##### New Features
+
+* **list:** create list endpoint to list movies with filter options ([13c4733b](https://github.com/keenadams/sfmovies/commit/13c4733b05122c93a5fd8c894714d757f8981637))
+
 ## 1.0.0 (2016-5-27)
 
 ##### Chores
